@@ -70,18 +70,18 @@ ninja.data = [{
           window.open("https://github.com/KaurMahima", "_blank");
         },
       },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.linkedin.com/in/mahima--kaur", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=bBCrQ-sAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-custom_social',
+        title: 'Custom_social',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://linkedin.com/in/mahima--kaur", "_blank");
         },
       },{
       id: 'light-theme',
