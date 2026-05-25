@@ -135,25 +135,61 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
-  .card {
+  .project-card {
+    flex-direction: row;
+    border: 1px solid var(--global-divider-color);
+
+    .project-thumbnail-link {
+      flex: 0 0 104px;
+      padding: 1rem 0 1rem 1rem;
+    }
+
     figure {
       margin-bottom: 0;
     }
 
-    img {
-      width: 100%;
-    }
-
     .card-img-top {
-      height: 180px;
-      padding: 1rem;
+      display: block;
+      width: 88px;
+      height: 88px;
+      padding: 0.45rem;
       object-fit: contain;
       background-color: #fff;
+      border-radius: 0.25rem;
+    }
+
+    .card-body {
+      min-width: 0;
+      padding: 1rem;
+    }
+
+    .card-title {
+      font-size: 1.15rem;
+      margin-bottom: 0.45rem;
+    }
+
+    .card-text {
+      font-size: 0.925rem;
+      margin-bottom: 0.65rem;
     }
   }
 
   .col {
     padding-bottom: 1rem;
+  }
+
+  @media (max-width: 575px) {
+    .project-card {
+      .project-thumbnail-link {
+        flex-basis: 82px;
+        padding: 0.85rem 0 0.85rem 0.85rem;
+      }
+
+      .card-img-top {
+        width: 68px;
+        height: 68px;
+      }
+    }
   }
 
   .grid-sizer,

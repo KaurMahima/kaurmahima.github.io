@@ -57,12 +57,12 @@
     }
 
     .post-thumbnail {
-      flex: 0 0 112px;
+      flex: 0 0 88px;
 
       img {
         display: block;
-        width: 112px;
-        height: 112px;
+        width: 88px;
+        height: 88px;
         object-fit: cover;
         border-radius: 0.25rem;
       }
@@ -103,16 +103,20 @@
 }
 
 .post-content {
-  figure:has(.post-inline-thumbnail) {
+  .post-inline-media {
     float: left;
-    width: 132px;
-    margin: 0 1.5rem 1rem 0;
+    width: 98px;
+    margin: 0 1.15rem 0.75rem 0;
     text-align: center;
+
+    figure {
+      margin: 0;
+    }
 
     .post-inline-thumbnail {
       display: block;
-      width: 112px;
-      height: 112px;
+      width: 80px;
+      height: 80px;
       margin: 0 auto;
       object-fit: cover;
     }

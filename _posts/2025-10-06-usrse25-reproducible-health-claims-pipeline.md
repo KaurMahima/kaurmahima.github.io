@@ -10,7 +10,9 @@ categories: [presentations]
 related_posts: false
 ---
 
-{% include figure.liquid path="assets/img/USRSEConference2025_1029.jpg" alt="Mahima Kaur presenting at USRSE 2025 in Philadelphia" caption="Presenting at USRSE'25 in Philadelphia." class="post-inline-thumbnail rounded z-depth-1" %}
+<div class="post-inline-media">
+  {% include figure.liquid path="assets/img/USRSEConference2025_1029.jpg" alt="Mahima Kaur presenting at USRSE 2025 in Philadelphia" caption="USRSE'25" class="post-inline-thumbnail rounded z-depth-1" %}
+</div>
 
 On October 6, 2025, I presented **"A reproducible and scalable pipeline for processing administrative health claims data"** at [USRSE'25](https://us-rse.org/usrse25/), the US Research Software Engineering Conference in Philadelphia. The conference theme, *Code, Practices, and People*, was a natural setting for work centered on scalable data engineering and reproducible research workflows.
 
