@@ -10,7 +10,7 @@ github: https://github.com/KaurMahima/citibike-analytics-platform
 
 **Technologies:** Python · DuckDB · dbt · Dagster · Streamlit · Parquet · NOAA API
 
-[View source code on GitHub](https://github.com/KaurMahima/citibike-analytics-platform) · [Read the engineering note on the blog]({% post_url 2026-05-25-building-citibike-analytics-platform %})
+[View source code on GitHub](https://github.com/KaurMahima/citibike-analytics-platform)
 
 ## Overview
 
@@ -115,7 +115,3 @@ The scheduled pipeline processes the previously completed month and supports tar
 ## Engineering Focus
 
 This project demonstrates pipeline design across ingestion, storage, transformation, orchestration, and delivery. It uses Parquet and DuckDB to keep local analytics efficient, dbt to make transformations explicit and testable, Dagster to manage recurring data refreshes, and Streamlit to expose modeled data through an interactive analytical interface.
-
-## Related Writing
-
-- [Building a Citi Bike Analytics Platform with DuckDB, dbt, and Dagster]({% post_url 2026-05-25-building-citibike-analytics-platform %})
