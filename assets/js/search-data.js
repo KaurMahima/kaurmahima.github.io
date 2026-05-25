@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Selected analytics engineering and health data projects with implementation details.",
+          description: "Selected analytics engineering projects with implementation details.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -44,20 +44,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-designing-health-data-pipelines-with-parquet-and-duckdb",
+        },{id: "post-designing-analytical-data-pipelines-with-parquet-and-duckdb",
         
-          title: "Designing Health Data Pipelines with Parquet and DuckDB",
+          title: "Designing Analytical Data Pipelines with Parquet and DuckDB",
         
-        description: "Practical design decisions for turning large, multi-file health datasets into queryable analytical layers.",
+        description: "Practical design decisions for turning large, multi-file datasets into queryable analytical layers.",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2026/designing-health-data-pipelines-with-parquet-and-duckdb/";
           
         },
-      },{id: "post-validating-analytics-ready-health-data-before-analysis",
+      },{id: "post-validating-analytics-ready-data-before-analysis",
         
-          title: "Validating Analytics-Ready Health Data Before Analysis",
+          title: "Validating analytics-ready data before analysis",
         
         description: "A validation checklist for identifiers, time logic, duplication, measures, and cohort-ready data products.",
         section: "Posts",
