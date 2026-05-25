@@ -24,7 +24,7 @@ github_username: KaurMahima # your GitHub user name
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-linkedin_username: mahima--kaur # your LinkedIn user name
+#linkedin_username: mahima--kaur # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
 # orcid_id: # your ORCID ID
@@ -54,3 +54,7 @@ scholar_userid: bBCrQ-sAAAAJ # your Google Scholar ID
 #   logo: https://example.com/icon.png # can be png, svg, jpg
 #   title: Custom Social
 #   url: https://example.com/
+custom_social:
+  logo: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/svgs/brands/linkedin.svg
+  title: LinkedIn
+  url: https://linkedin.com/in/mahima--kaur
