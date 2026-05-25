@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-Notes on health data engineering, reproducible research workflows, and research software presentations.
+Notes on analytics engineering, reproducible workflows, data quality, and scalable data products.
 
 <div class="tag-category-list">
   <ul>

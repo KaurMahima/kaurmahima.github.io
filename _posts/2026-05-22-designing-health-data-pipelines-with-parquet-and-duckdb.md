@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Designing Health Data Pipelines with Parquet and DuckDB
+title: Designing Analytical Data Pipelines with Parquet and DuckDB
 date: 2026-05-22
 author: Mahima Kaur
-description: Practical design decisions for turning large, multi-file health datasets into queryable analytical layers.
-tags: [data-engineering, health-data, reproducibility]
+description: Practical design decisions for turning large, multi-file datasets into queryable analytical layers.
+tags: [data-engineering, analytics-engineering, reproducibility]
 related_posts: false
 ---
 
-Health datasets often arrive as many files split by year, source, or population. Before an analyst can answer a research question, the data engineering work has to solve a more basic problem: how can these inputs be transformed into datasets that are consistent, traceable, and efficient to query?
+Analytical datasets often arrive as many files split by year, source, region, or population. Before an analyst can answer a business or research question, the data engineering work has to solve a more basic problem: how can these inputs be transformed into datasets that are consistent, traceable, and efficient to query?
 
 A useful local-first architecture is to store standardized extracts as **partitioned Parquet** and query or transform them with **DuckDB**. This approach provides columnar storage and SQL analytics without requiring a long-running database service.
 
@@ -58,7 +58,7 @@ Separating transformations into layers prevents cleaning rules from being mixed 
 2. **Staging** applies naming conventions, type casting, deduplication, and normalized codes.
 3. **Marts** define analysis-ready outcomes, cohorts, or aggregate measures.
 
-For health data, this separation matters. A transformation such as mapping diagnosis or enrollment values should be documented independently from a metric such as hospitalization counts or readmission rates.
+For any governed analytical dataset, this separation matters. A transformation such as normalizing source categories or harmonizing identifiers should be documented independently from a metric such as activity, utilization, revenue, or retention.
 
 ## Validation At Each Boundary
 

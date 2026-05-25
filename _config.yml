@@ -7,11 +7,11 @@ first_name: Mahima
 last_name: Kaur
 contact_note: Open to analytics data engineering and research software conversations.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Mahima Kaur is an Analytics Data Engineer building reproducible public health data pipelines, analytics models, and research software.
+  Mahima Kaur is an Analytics Data Engineer building reproducible data pipelines, analytics models, dashboards, and reliable data products.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: data engineering, analytics engineering, health data, research software, DuckDB, dbt, Python, SQL, Mahima Kaur
+keywords: data engineering, analytics engineering, data pipelines, data modeling, dashboards, DuckDB, dbt, Python, SQL, Mahima Kaur
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -89,7 +89,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Blog # blog_name will be displayed in your blog page
-blog_description: Notes on health data engineering, reproducible research workflows, and scalable analytics.
+blog_description: Notes on analytics engineering, reproducible workflows, data quality, and scalable analytics.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -253,7 +253,7 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["data-engineering", "health-data", "research-software", "reproducibility", "presentation", "projects"]
+display_tags: ["data-engineering", "analytics-engineering", "data-quality", "research-software", "reproducibility", "presentation"]
 display_categories: ["presentations"]
 
 # -----------------------------------------------------------------------------

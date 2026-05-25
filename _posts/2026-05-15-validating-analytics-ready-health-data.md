@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Validating Analytics-Ready Health Data Before Analysis
+title: Validating analytics-ready data before analysis
 date: 2026-05-15
 author: Mahima Kaur
 description: A validation checklist for identifiers, time logic, duplication, measures, and cohort-ready data products.
-tags: [data-engineering, health-data, reproducibility]
+tags: [data-engineering, data-quality, reproducibility]
 related_posts: false
 ---
 
 An analytics-ready dataset should be more than a cleaned table. It should have a documented grain, predictable identifiers, valid time relationships, and measurements that can be trusted in downstream analysis.
 
-In health-data workflows, weak validation can quietly affect cohort counts, utilization trends, costs, or modeled outcomes. The checks below are a practical baseline before exposing a dataset to analysts or dashboards.
+In analytical workflows, weak validation can quietly affect customer counts, utilization trends, costs, or modeled outcomes. The checks below are a practical baseline before exposing a dataset to analysts or dashboards.
 
 ## 1. Define The Grain First
 
