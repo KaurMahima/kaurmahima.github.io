@@ -4,12 +4,15 @@ title: Presenting a reproducible health claims data pipeline at USRSE'25
 date: 2025-10-06
 author: Mahima Kaur
 description: A presentation on building a modular, scalable workflow for transforming Medicare administrative data into analysis-ready datasets.
+thumbnail: /assets/img/USRSEConference2025_1029.jpg
 tags: [data-engineering, research-software, reproducibility, presentation]
 categories: [presentations]
 related_posts: false
 ---
 
 On October 6, 2025, I presented **"A reproducible and scalable pipeline for processing administrative health claims data"** at [USRSE'25](https://us-rse.org/usrse25/), the US Research Software Engineering Conference in Philadelphia. The conference theme, *Code, Practices, and People*, was a natural setting for work centered on scalable data engineering and reproducible research workflows.
+
+{% include figure.liquid path="assets/img/USRSEConference2025_1029.jpg" alt="Mahima Kaur presenting at USRSE 2025 in Philadelphia" caption="Presenting at USRSE'25 in Philadelphia." class="img-fluid rounded z-depth-1" %}
 
 ## Motivation
 
