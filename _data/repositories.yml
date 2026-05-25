@@ -1,41 +1,80 @@
 github_users:
   - KaurMahima
 
-repo_description_lines_max: 2
-
-highlights:
-  - name: CMS Hospitalization Risk Pipeline
-    url: https://github.com/KaurMahima/cms-hospitalization-risk-pipeline
-    description: Processes CMS beneficiary and inpatient claims data with a Snakemake workflow and presents hospitalization-risk trends in a Dash application.
-  - name: Healthcare SQL Analytics
-    url: https://github.com/KaurMahima/healthcare-sql-analytics
-    description: Uses Python, DuckDB, and SQL to clean and analyze almost 50,000 healthcare admissions, including readmission and cost metrics.
-  - name: Airflow COVID Mini Pipeline
-    url: https://github.com/KaurMahima/airflow-covid-mini-pipeline
-    description: Demonstrates a reproducible ETL workflow from CDC COVID data to Parquet, DuckDB analytics, and generated reports.
+projects:
   - name: Citi Bike Analytics Platform
-    url: https://github.com/KaurMahima/citibike-analytics-platform
+    github: KaurMahima/citibike-analytics-platform
     description: Combines Citi Bike trips and NOAA weather using Python, DuckDB, dbt, and a Streamlit dashboard.
-  - name: LinkShelf
-    url: https://github.com/KaurMahima/linkshelf
-    description: A Flask bookmark application with PostgreSQL deployment support and optional AI-generated link summaries.
+    featured: true
 
-github_repos:
-  - KaurMahima/citibike-analytics-platform
-  - KaurMahima/linkshelf
-  - KaurMahima/healthcare-sql-analytics
-  - KaurMahima/airflow-covid-mini-pipeline
-  - KaurMahima/cms-hospitalization-risk-pipeline
-  - KaurMahima/kaurmahima.github.io
-  - KaurMahima/KaurMahima
-  - KaurMahima/BIS-634-Assignments
-  - KaurMahima/Data-Exploration-and-Analysis-Course
-  - KaurMahima/simpsons-paradox-medical-case-study
-  - KaurMahima/handwashing-mortality-analysis
-  - KaurMahima/taxi-fare-prediction
-  - KaurMahima/nhanes-health-survey-analysis
-  - KaurMahima/life-expectancy-inequality
-  - KaurMahima/unsupervised-learning-heart-disease
-  - KaurMahima/blood-donation-prediction
-  - KaurMahima/malaria-surveillance-dashboard
-  - KaurMahima/nyc-airbnb-market-analysis
+  - name: LinkShelf
+    github: KaurMahima/linkshelf
+    description: A Flask bookmark application with PostgreSQL deployment support and optional AI-generated link summaries.
+    featured: true
+
+  - name: Healthcare SQL Analytics
+    github: KaurMahima/healthcare-sql-analytics
+    description: Uses Python, DuckDB, and SQL to clean and analyze almost 50,000 healthcare admissions, including readmission and cost metrics.
+    featured: true
+
+  - name: Airflow COVID Mini Pipeline
+    github: KaurMahima/airflow-covid-mini-pipeline
+    description: Demonstrates a reproducible ETL workflow from CDC COVID data to Parquet, DuckDB analytics, and generated reports.
+    featured: true
+
+  - name: CMS Hospitalization Risk Pipeline
+    github: KaurMahima/cms-hospitalization-risk-pipeline
+    description: Processes CMS beneficiary and inpatient claims data with a Snakemake workflow and presents hospitalization-risk trends in a Dash application.
+    featured: true
+
+  - name: Portfolio Website
+    github: KaurMahima/kaurmahima.github.io
+    description: Source code for this Jekyll portfolio site built with the al-folio theme.
+
+  - name: GitHub Profile
+    github: KaurMahima/KaurMahima
+    description: Repository containing the profile content displayed on GitHub.
+
+  - name: BIS 634 Assignments
+    github: KaurMahima/BIS-634-Assignments
+    description: Coursework and project work, including a diabetes risk prediction dashboard.
+
+  - name: Data Exploration and Analysis Course
+    github: KaurMahima/Data-Exploration-and-Analysis-Course
+    description: Course projects and analysis exercises focused on exploring real-world data.
+
+  - name: Simpsons Paradox Medical Case Study
+    github: KaurMahima/simpsons-paradox-medical-case-study
+    description: An analysis of Simpson's paradox in a medical case study.
+
+  - name: Handwashing Mortality Analysis
+    github: KaurMahima/handwashing-mortality-analysis
+    description: Data analysis exploring handwashing adoption and mortality outcomes.
+
+  - name: Taxi Fare Prediction
+    github: KaurMahima/taxi-fare-prediction
+    description: A predictive modeling project for estimating taxi fares from trip data.
+
+  - name: NHANES Health Survey Analysis
+    github: KaurMahima/nhanes-health-survey-analysis
+    description: Analysis of public health measures from the NHANES survey dataset.
+
+  - name: Life Expectancy Inequality
+    github: KaurMahima/life-expectancy-inequality
+    description: An exploration of variation and inequality in life expectancy data.
+
+  - name: Unsupervised Learning Heart Disease
+    github: KaurMahima/unsupervised-learning-heart-disease
+    description: Applies unsupervised learning methods to heart disease data.
+
+  - name: Blood Donation Prediction
+    github: KaurMahima/blood-donation-prediction
+    description: A machine learning project predicting blood donation behavior.
+
+  - name: Malaria Surveillance Dashboard
+    github: KaurMahima/malaria-surveillance-dashboard
+    description: A dashboard project for monitoring and communicating malaria surveillance metrics.
+
+  - name: NYC Airbnb Market Analysis
+    github: KaurMahima/nyc-airbnb-market-analysis
+    description: Analysis of listings and trends in the New York City Airbnb market.

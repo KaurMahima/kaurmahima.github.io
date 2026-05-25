@@ -1,0 +1,30 @@
+{% assign repository = include.project.github %}
+{% assign repository_url = 'https://github.com/' | append: repository %}
+{% assign image = include.project.image | default: '/assets/img/github_repo.png' %}
+
+<article class="card repository-card h-100 hoverable">
+  <img
+    class="card-img-top repository-card-image"
+    src="{{ image | relative_url }}"
+    alt="{{ include.project.name }} repository preview"
+    loading="lazy"
+  >
+  <div class="card-body">
+    <div class="repository-card-heading">
+      <h3 class="card-title">{{ include.project.name }}</h3>
+      {% if include.project.featured %}
+        <span class="badge repository-featured-badge">Featured</span>
+      {% endif %}
+    </div>
+    <p class="card-text">{{ include.project.description }}</p>
+    <div class="repository-badges" aria-label="GitHub repository statistics">
+      <img src="https://img.shields.io/github/stars/{{ repository }}?style=flat-square&label=stars" alt="GitHub stars for {{ include.project.name }}">
+      <img src="https://img.shields.io/github/forks/{{ repository }}?style=flat-square&label=forks" alt="GitHub forks for {{ include.project.name }}">
+      <img src="https://img.shields.io/github/last-commit/{{ repository }}?style=flat-square&label=last%20commit" alt="Last commit for {{ include.project.name }}">
+    </div>
+    <a class="repository-link" href="{{ repository_url }}" target="_blank" rel="noopener noreferrer">
+      <i class="fa-brands fa-github" aria-hidden="true"></i>
+      View repository
+    </a>
+  </div>
+</article>

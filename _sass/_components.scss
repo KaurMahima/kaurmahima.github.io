@@ -169,6 +169,64 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.repository-projects {
+  .repository-card {
+    border: 1px solid var(--global-divider-color);
+    overflow: hidden;
+
+    .repository-card-image {
+      height: 175px;
+      object-fit: cover;
+      border-bottom: 1px solid var(--global-divider-color);
+    }
+
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+
+    .card-text {
+      flex-grow: 1;
+      margin-bottom: 0;
+    }
+  }
+
+  .repository-card-heading {
+    display: flex;
+    gap: 0.6rem;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .card-title {
+      font-size: 1.25rem;
+      margin-bottom: 0;
+    }
+  }
+
+  .repository-featured-badge {
+    color: var(--global-card-bg-color);
+    background-color: var(--global-theme-color);
+    white-space: nowrap;
+  }
+
+  .repository-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+
+    img {
+      height: 20px;
+      width: auto;
+    }
+  }
+
+  .repository-link {
+    align-self: flex-start;
+    font-weight: 500;
+  }
+}
+
 // Social (bottom)
 
 .social {

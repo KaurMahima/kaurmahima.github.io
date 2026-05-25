@@ -14,7 +14,7 @@ selected_papers: false
 social: true
 announcements:
   enabled: false
-Latest_posts:
+latest_posts:
   enabled: true
 ---
 
