@@ -46,7 +46,3 @@ Mahima Kaur is a Anlytics Data Engineer with 3+ years of experience building dat
 </div>
 
 For more details, see the [CV](/cv/).
-
-**Publications**
-
-See [Mahima Kaur's Google Scholar](https://scholar.google.com/citations?user=bBCrQ-sAAAAJ&hl=en) for a complete and up-to-date list of publications.
