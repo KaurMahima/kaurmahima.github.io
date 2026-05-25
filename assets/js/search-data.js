@@ -17,22 +17,22 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
+          title: "Projects",
           description: "Featured project(s).",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
-          title: "repositories",
-          description: "Main GitHub profile and featured project(s).",
+          title: "Repositories",
+          description: "Public data engineering, analytics, and research software repositories.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-blog",
-          title: "blog",
-          description: "Notes on data engineering, reproducible workflows, and research software.",
+        },{id: "nav-mahima-kaur-39-s-blog",
+          title: "Mahima Kaur&#39;s Blog",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
