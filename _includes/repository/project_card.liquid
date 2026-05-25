@@ -22,7 +22,7 @@
     {% if include.project.tech %}
       <div class="repository-tags" aria-label="Technology stack">
         {% for technology in include.project.tech %}
-          <span class="repository-tag">{{ technology }}</span>
+          <span class="badge repository-tag">{{ technology }}</span>
         {% endfor %}
       </div>
     {% endif %}
