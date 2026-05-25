@@ -7,7 +7,7 @@ nav: true
 nav_order: 5
 ---
 
-Documenting my learnings in health data engineering, reproducible research workflows, and scalable analytics. I also share conference presentations, research software, and projects.
+Notes on health data engineering, reproducible research workflows, and research software presentations.
 
 <div class="tag-category-list">
   <ul>

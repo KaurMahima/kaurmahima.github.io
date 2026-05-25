@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Applied health data and analytics projects.
+description: Selected analytics engineering and health data projects with implementation details.
 nav: true
 nav_order: 3
 ---

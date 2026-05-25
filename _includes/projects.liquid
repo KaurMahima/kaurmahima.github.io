@@ -17,6 +17,13 @@
         <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">{{ project.title }}</a>
       </h2>
       <p class="card-text">{{ project.description }}</p>
+      {% if project.tech %}
+        <div class="project-tags" aria-label="Technology stack">
+          {% for technology in project.tech %}
+            <span class="project-tag">{{ technology }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
       <div class="row ml-1 mr-1 p-0">
         {% if project.github %}
           <div class="github-icon">

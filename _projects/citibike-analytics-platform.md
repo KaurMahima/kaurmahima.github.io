@@ -6,6 +6,7 @@ permalink: /projects/citibike-analytics-platform/
 importance: 0
 img: /assets/img/github_repo.png
 github: https://github.com/KaurMahima/citibike-analytics-platform
+tech: [Python, DuckDB, dbt, Dagster]
 ---
 
 **Technologies:** Python · DuckDB · dbt · Dagster · Streamlit · Parquet · NOAA API

@@ -45,7 +45,6 @@ cv:
       start_date: 2024-07
       end_date: Present
       highlights:
-        - Building and maintaining data pipelines for public health analytics
         - Owned end-to-end ELT pipelines in Python and SQL to process 10+ TB of multi-year data within a data lakehouse architecture, from ingestion to analytics-ready datasets.
         - Defined data models and standardized variables to ensure consistency and usability of analytical datasets across teams.
         - Built and maintained scalable data workflows using Snakemake and Hydra, running on HPC clusters (SLURM) and optimized with DuckDB over partitioned Parquet.
@@ -85,6 +84,15 @@ cv:
         keywords: [Looker, Tableau, Power BI]
 
     Projects:
+      - name: Citi Bike Analytics Platform
+        url: https://github.com/KaurMahima/citibike-analytics-platform
+        summary: Built a reproducible mobility analytics platform with Python ingestion, partitioned Parquet, dbt/DuckDB marts, Dagster orchestration, and a Streamlit dashboard.
+      - name: CMS Hospitalization Risk Pipeline
+        url: https://github.com/KaurMahima/cms-hospitalization-risk-pipeline
+        summary: Developed a Snakemake-based CMS claims processing workflow and Dash application for hospitalization-risk analysis across years and demographic segments.
+      - name: Healthcare SQL Analytics
+        url: https://github.com/KaurMahima/healthcare-sql-analytics
+        summary: Created a DuckDB and SQL workflow to clean and analyze 49,904 admissions, including billing, length-of-stay, and 30-day readmission measures.
       - name: Diabetes Risk Calculator
         url: https://github.com/KaurMahima/BIS-634-Assignments/tree/main/FinalProject
         summary: Built a diabetes risk prediction model on 70K records and deployed a dashboard using Flask and Plotly.

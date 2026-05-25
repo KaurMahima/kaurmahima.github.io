@@ -1,13 +1,13 @@
 ---
 layout: page
 permalink: /repositories/
-title: Repositories
-description: Selected projects and public GitHub repositories.
+title: Code
+description: Public repositories with live GitHub activity and implementation stacks.
 nav: true
 nav_order: 4
 ---
 
-## Featured
+## Featured Repositories
 
 <div class="repository-projects">
   {% for project in site.data.repositories.projects %}
@@ -19,7 +19,7 @@ nav_order: 4
   {% endfor %}
 </div>
 
-## Public
+## Additional Repositories
 
 <div class="repository-projects">
   {% for project in site.data.repositories.projects %}

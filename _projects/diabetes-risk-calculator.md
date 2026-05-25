@@ -3,9 +3,10 @@ layout: page
 title: Diabetes Risk Calculator
 description: An interactive BRFSS-based application for exploring modeled diabetes risk.
 permalink: /projects/diabetes-risk-calculator/
-importance: 1
+importance: 3
 img: /assets/img/github_repo.png
 github: https://github.com/KaurMahima/BIS-634-Assignments/tree/main/FinalProject
+tech: [Python, Flask, Plotly, Machine Learning]
 ---
 
 **Technologies:** Python · Flask · Plotly · pandas · scikit-learn
