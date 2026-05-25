@@ -6,18 +6,16 @@ subtitle: Analytics Data Engineer
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false
-  more_info: >
-    <p><a href="mailto:mahimakaur20@gmail.com">mahimakaur20@gmail.com</a></p>
-    <p><a href="https://www.linkedin.com/in/mahima--kaur">LinkedIn</a> | <a href="https://github.com/KaurMahima">GitHub</a> | <a href="https://scholar.google.com/citations?user=bBCrQ-sAAAAJ&hl=en">Google Scholar</a></p>
+  image: img/prof_pic.jpg
+  image_circular: true
+  
 
 selected_papers: false
 social: true
 announcements:
   enabled: false
 latest_posts:
-  enabled: false
+  enabled: true
 ---
 
 Mahima Kaur is a Data Engineer with 3+ years of experience building data pipelines and analytics solutions using Python and SQL. Skilled in end-to-end ELT pipelines, data modeling, and workflow orchestration for large-scale datasets. Familiar with AWS and expanding cloud expertise.
