@@ -124,34 +124,6 @@ ul.task-list input[type="checkbox"] {
 
 // Projects
 
-.home-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.65rem;
-  margin-top: 1.5rem;
-  margin-bottom: 2rem;
-
-  .btn {
-    color: var(--global-text-color);
-    border: 1px solid var(--global-text-color);
-
-    &:first-child {
-      color: var(--global-card-bg-color);
-      background-color: var(--global-theme-color);
-      border-color: var(--global-theme-color);
-
-      &:hover {
-        color: var(--global-card-bg-color);
-      }
-    }
-
-    &:hover {
-      color: var(--global-theme-color);
-      border-color: var(--global-theme-color);
-    }
-  }
-}
-
 .home-focus-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
