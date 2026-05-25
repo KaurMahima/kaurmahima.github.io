@@ -1,6 +1,4 @@
----
-
----
+layout: about
 layout: about
 title: About
 permalink: /
