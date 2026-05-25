@@ -8,7 +8,7 @@ tags: [projects, health-data, data-engineering]
 related_posts: false
 ---
 
-The [Diabetes Risk Calculator]({{ '/projects/' | relative_url }}) is a health data application I built to combine exploratory analysis and a predictive model in one interface. It uses a BRFSS 2015-derived dataset of approximately 70,000 records and presents both interactive analysis views and an individual risk estimation form.
+The [Diabetes Risk Calculator]({{ '/projects/diabetes-risk-calculator/' | relative_url }}) is a health data application I built to combine exploratory analysis and a predictive model in one interface. It uses a BRFSS 2015-derived dataset of approximately 70,000 records and presents both interactive analysis views and an individual risk estimation form.
 
 ## From Data to Interface
 
@@ -31,5 +31,5 @@ The calculator is an educational project and is not intended for diagnosis or cl
 
 ## Project Links
 
-- [Full project overview]({{ '/projects/' | relative_url }})
+- [Full project overview]({{ '/projects/diabetes-risk-calculator/' | relative_url }})
 - [Source code on GitHub](https://github.com/KaurMahima/BIS-634-Assignments/tree/main/FinalProject)
