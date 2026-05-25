@@ -7,14 +7,14 @@ subtitle: Analytics Data Engineer
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true
+  image_circular: false
 
 selected_papers: false
 social: true
 announcements:
   enabled: false
 latest_posts:
-  enabled: true
+  enabled: false
 ---
 
 Mahima Kaur is a Data Engineer with 3+ years of experience building data pipelines and analytics solutions using Python and SQL. Skilled in end-to-end ELT pipelines, data modeling, and workflow orchestration for large-scale datasets. Familiar with AWS and expanding cloud expertise.
@@ -28,7 +28,7 @@ Mahima Kaur is a Data Engineer with 3+ years of experience building data pipelin
 
 - Data Engineer, Harvard T.H. Chan School of Public Health (July 2024 -- present)
 
-## Technical Focus
+**Technical Focus**
 
 <div class="home-focus-grid">
   <div class="home-focus-item">
