@@ -18,14 +18,14 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Applied health data and analytics projects.",
+          description: "Selected analytics engineering and health data projects with implementation details.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "Repositories",
-          description: "Selected projects and public GitHub repositories.",
+        },{id: "nav-code",
+          title: "Code",
+          description: "Public repositories with live GitHub activity and implementation stacks.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -60,11 +60,21 @@ ninja.data = [{
           description: "An analytics pipeline combining Citi Bike trip data and NYC weather for mobility analysis.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/citibike-analytics-platform/";
+            },},{id: "projects-cms-hospitalization-risk-pipeline",
+          title: 'CMS Hospitalization Risk Pipeline',
+          description: "A reproducible pipeline and dashboard for exploring hospitalization risk in Medicare claims data.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cms-hospitalization-risk-pipeline/";
             },},{id: "projects-diabetes-risk-calculator",
           title: 'Diabetes Risk Calculator',
           description: "An interactive BRFSS-based application for exploring modeled diabetes risk.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/diabetes-risk-calculator/";
+            },},{id: "projects-healthcare-sql-analytics",
+          title: 'Healthcare SQL Analytics',
+          description: "A DuckDB and SQL analytics pipeline for admissions, billing, length-of-stay, and readmission analysis.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/healthcare-sql-analytics/";
             },},{
         id: 'social-email',
         title: 'email',
