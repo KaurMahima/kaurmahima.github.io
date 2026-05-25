@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Featured project(s).",
+          description: "Applied health data and analytics projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -30,8 +30,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-mahima-kaur-39-s-blog",
-          title: "Mahima Kaur&#39;s Blog",
+        },{id: "nav-blog",
+          title: "Blog",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-presenting-a-reproducible-health-claims-data-pipeline-at-usrse-39-25",
+        },{id: "post-building-a-diabetes-risk-calculator-with-flask-and-random-forests",
+        
+          title: "Building a Diabetes Risk Calculator with Flask and Random Forests",
+        
+        description: "A project note on turning BRFSS health survey data into an interactive diabetes risk exploration and modeling application.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/diabetes-risk-calculator/";
+          
+        },
+      },{id: "post-presenting-a-reproducible-health-claims-data-pipeline-at-usrse-39-25",
         
           title: "Presenting a reproducible health claims data pipeline at USRSE&#39;25",
         
