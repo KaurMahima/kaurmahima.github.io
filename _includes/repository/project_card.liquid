@@ -3,12 +3,14 @@
 {% assign image = include.project.image | default: '/assets/img/github_repo.png' %}
 
 <article class="card repository-card h-100 hoverable">
-  <img
-    class="card-img-top repository-card-image"
-    src="{{ image | relative_url }}"
-    alt="{{ include.project.name }} repository preview"
-    loading="lazy"
-  >
+  <div class="repository-card-image-wrap">
+    <img
+      class="repository-card-image rounded"
+      src="{{ image | relative_url }}"
+      alt="{{ include.project.name }} repository preview"
+      loading="lazy"
+    >
+  </div>
   <div class="card-body">
     <div class="repository-card-heading">
       <h3 class="card-title">{{ include.project.name }}</h3>

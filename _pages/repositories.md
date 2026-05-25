@@ -13,14 +13,30 @@ nav_order: 4
   {% include repository/repo_user.liquid username="KaurMahima" %}
 </div>
 
-## Public Repositories
+## Featured Repositories
 
-The cards below link to public repositories on [my GitHub profile](https://github.com/KaurMahima). GitHub statistics are loaded live from shields.io.
+Selected data engineering and analytics projects. GitHub statistics are loaded live from shields.io.
 
 <div class="repository-projects row row-cols-1 row-cols-md-2">
   {% for project in site.data.repositories.projects %}
-    <div class="col mb-4">
-      {% include repository/project_card.liquid project=project %}
-    </div>
+    {% if project.featured %}
+      <div class="col mb-4">
+        {% include repository/project_card.liquid project=project %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+## More Public Repositories
+
+Additional repositories from [my GitHub profile](https://github.com/KaurMahima).
+
+<div class="repository-projects row row-cols-1 row-cols-md-2">
+  {% for project in site.data.repositories.projects %}
+    {% unless project.featured %}
+      <div class="col mb-4">
+        {% include repository/project_card.liquid project=project %}
+      </div>
+    {% endunless %}
   {% endfor %}
 </div>

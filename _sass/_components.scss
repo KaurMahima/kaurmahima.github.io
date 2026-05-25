@@ -171,13 +171,21 @@ ul.task-list input[type="checkbox"] {
 
 .repository-projects {
   .repository-card {
+    flex-direction: row;
     border: 1px solid var(--global-divider-color);
     overflow: hidden;
 
+    .repository-card-image-wrap {
+      flex: 0 0 108px;
+      padding: 1.25rem 0 1.25rem 1.25rem;
+    }
+
     .repository-card-image {
-      height: 175px;
-      object-fit: cover;
-      border-bottom: 1px solid var(--global-divider-color);
+      width: 92px;
+      height: 92px;
+      padding: 0.4rem;
+      object-fit: contain;
+      background-color: #fff;
     }
 
     .card-body {
@@ -224,6 +232,24 @@ ul.task-list input[type="checkbox"] {
   .repository-link {
     align-self: flex-start;
     font-weight: 500;
+  }
+
+  @media (max-width: 575px) {
+    .repository-card {
+      .repository-card-image-wrap {
+        flex-basis: 84px;
+        padding: 1rem 0 1rem 1rem;
+      }
+
+      .repository-card-image {
+        width: 68px;
+        height: 68px;
+      }
+
+      .card-body {
+        padding: 1rem;
+      }
+    }
   }
 }
 
