@@ -44,7 +44,40 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-presenting-a-reproducible-health-claims-data-pipeline-at-usrse-39-25",
+        },{id: "post-designing-health-data-pipelines-with-parquet-and-duckdb",
+        
+          title: "Designing Health Data Pipelines with Parquet and DuckDB",
+        
+        description: "Practical design decisions for turning large, multi-file health datasets into queryable analytical layers.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/designing-health-data-pipelines-with-parquet-and-duckdb/";
+          
+        },
+      },{id: "post-validating-analytics-ready-health-data-before-analysis",
+        
+          title: "Validating Analytics-Ready Health Data Before Analysis",
+        
+        description: "A validation checklist for identifiers, time logic, duplication, measures, and cohort-ready data products.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/validating-analytics-ready-health-data/";
+          
+        },
+      },{id: "post-reliable-incremental-loads-and-backfills-for-time-partitioned-data",
+        
+          title: "Reliable Incremental Loads and Backfills for Time-Partitioned Data",
+        
+        description: "How to design monthly data workflows that rerun safely, expose lineage, and support historical corrections.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/reliable-incremental-loads-and-backfills/";
+          
+        },
+      },{id: "post-presenting-a-reproducible-health-claims-data-pipeline-at-usrse-39-25",
         
           title: "Presenting a reproducible health claims data pipeline at USRSE&#39;25",
         
