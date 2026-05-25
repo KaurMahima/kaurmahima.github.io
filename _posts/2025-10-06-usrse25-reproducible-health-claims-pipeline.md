@@ -4,8 +4,8 @@ title: Presenting a reproducible health claims data pipeline at USRSE'25
 date: 2025-10-06
 author: Mahima Kaur
 description: A presentation on building a modular, scalable workflow for transforming Medicare administrative data into analysis-ready datasets.
-tags: [research-software, data-engineering, reproducibility]
-categories: [conferences]
+tags: [data-engineering, research-software, reproducibility, presentation]
+categories: [presentations]
 related_posts: false
 ---
 

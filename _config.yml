@@ -88,8 +88,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: blog # blog_name will be displayed in your blog page
-blog_description: Notes on data engineering, reproducible workflows, and research software.
+blog_name: Mahima Kaur's Blog # blog_name will be displayed in your blog page
+blog_description: Notes on health data engineering, reproducible research workflows, and scalable analytics.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -253,8 +253,8 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["research-software", "data-engineering", "reproducibility"]
-display_categories: ["conferences"]
+display_tags: ["data-engineering", "health-data", "research-software", "reproducibility", "presentation", "projects"]
+display_categories: ["presentations"]
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

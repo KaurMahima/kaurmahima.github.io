@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: Main GitHub profile and featured project(s).
+title: Repositories
+description: Public data engineering, analytics, and research software repositories.
 nav: true
 nav_order: 4
 ---
@@ -13,9 +13,15 @@ nav_order: 4
   {% include repository/repo_user.liquid username="KaurMahima" %}
 </div>
 
-## Featured Project
+## Highlights
 
-- [Diabetes Risk Calculator](https://github.com/KaurMahima/BIS-634-Assignments/tree/main/FinalProject): Built a diabetes risk prediction model on 70K records and deployed a dashboard using Flask and Plotly.
+{% for project in site.data.repositories.highlights %}
+- [{{ project.name }}]({{ project.url }}): {{ project.description }}
+{% endfor %}
+
+## Public Repositories
+
+The cards below link to all public repositories on [my GitHub profile](https://github.com/KaurMahima).
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}

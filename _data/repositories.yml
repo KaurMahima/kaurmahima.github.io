@@ -3,5 +3,39 @@ github_users:
 
 repo_description_lines_max: 2
 
+highlights:
+  - name: CMS Hospitalization Risk Pipeline
+    url: https://github.com/KaurMahima/cms-hospitalization-risk-pipeline
+    description: Processes CMS beneficiary and inpatient claims data with a Snakemake workflow and presents hospitalization-risk trends in a Dash application.
+  - name: Healthcare SQL Analytics
+    url: https://github.com/KaurMahima/healthcare-sql-analytics
+    description: Uses Python, DuckDB, and SQL to clean and analyze almost 50,000 healthcare admissions, including readmission and cost metrics.
+  - name: Airflow COVID Mini Pipeline
+    url: https://github.com/KaurMahima/airflow-covid-mini-pipeline
+    description: Demonstrates a reproducible ETL workflow from CDC COVID data to Parquet, DuckDB analytics, and generated reports.
+  - name: Citi Bike Analytics Platform
+    url: https://github.com/KaurMahima/citibike-analytics-platform
+    description: Combines Citi Bike trips and NOAA weather using Python, DuckDB, dbt, and a Streamlit dashboard.
+  - name: LinkShelf
+    url: https://github.com/KaurMahima/linkshelf
+    description: A Flask bookmark application with PostgreSQL deployment support and optional AI-generated link summaries.
+
 github_repos:
+  - KaurMahima/citibike-analytics-platform
+  - KaurMahima/linkshelf
+  - KaurMahima/healthcare-sql-analytics
+  - KaurMahima/airflow-covid-mini-pipeline
+  - KaurMahima/cms-hospitalization-risk-pipeline
+  - KaurMahima/kaurmahima.github.io
+  - KaurMahima/KaurMahima
   - KaurMahima/BIS-634-Assignments
+  - KaurMahima/Data-Exploration-and-Analysis-Course
+  - KaurMahima/simpsons-paradox-medical-case-study
+  - KaurMahima/handwashing-mortality-analysis
+  - KaurMahima/taxi-fare-prediction
+  - KaurMahima/nhanes-health-survey-analysis
+  - KaurMahima/life-expectancy-inequality
+  - KaurMahima/unsupervised-learning-heart-disease
+  - KaurMahima/blood-donation-prediction
+  - KaurMahima/malaria-surveillance-dashboard
+  - KaurMahima/nyc-airbnb-market-analysis
