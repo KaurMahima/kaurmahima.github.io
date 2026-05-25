@@ -1,4 +1,5 @@
 {% assign safe_path = include.path | default: '' %}
+{% assign img_path = safe_path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' %}
 {% assign parts = safe_path | split: '.' %}
 {% assign ext = parts.last %}
 
