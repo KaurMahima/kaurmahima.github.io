@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
+        },{id: "nav-blog",
+          title: "blog",
+          description: "Notes on data engineering, reproducible workflows, and research software.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "Professional experience, education, skills, and projects.",
@@ -37,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{
+        },{id: "post-presenting-a-reproducible-health-claims-data-pipeline-at-usrse-39-25",
+        
+          title: "Presenting a reproducible health claims data pipeline at USRSE&#39;25",
+        
+        description: "A presentation on building a modular, scalable workflow for transforming Medicare administrative data into analysis-ready datasets.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/usrse25-reproducible-health-claims-pipeline/";
+          
+        },
+      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
