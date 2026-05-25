@@ -19,6 +19,13 @@
       {% endif %}
     </div>
     <p class="card-text">{{ include.project.description }}</p>
+    {% if include.project.tech %}
+      <div class="repository-tags" aria-label="Technology stack">
+        {% for technology in include.project.tech %}
+          <span class="repository-tag">{{ technology }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
     <div class="repository-badges" aria-label="GitHub repository statistics">
       <img src="https://img.shields.io/github/stars/{{ repository }}?style=flat-square&label=stars" alt="GitHub stars for {{ include.project.name }}">
       <img src="https://img.shields.io/github/forks/{{ repository }}?style=flat-square&label=forks" alt="GitHub forks for {{ include.project.name }}">
