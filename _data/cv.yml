@@ -40,21 +40,79 @@ cv:
           - Graduated May 2019
 
     Experience:
-      - company: Harvard T.H. Chan School of Public Health
-        position: Data Engineer
-        location: Boston, MA, USA
-        start_date: 2024-07
-        end_date: Present
-        highlights:
-          - Building and maintaining data pipelines for public health analytics
+    - company: Harvard T.H. Chan School of Public Health
+      position: Data Engineer
+      location: Boston, MA, USA
+      start_date: 2024-07
+      end_date: Present
+      highlights:
+        - Building and maintaining data pipelines for public health analytics
+        - Owned end-to-end ELT pipelines in Python and SQL to process 10+ TB of multi-year data within a data lakehouse architecture, from ingestion to analytics-ready datasets.
+        - Defined data models and standardized variables to ensure consistency and usability of analytical datasets across teams.
+        - Built and maintained scalable data workflows using Snakemake and Hydra, running on HPC clusters (SLURM) and optimized with DuckDB over partitioned Parquet.
+        - Developed deployable data products using containerized workflows (Docker) for data processing pipelines and dashboards.
+        - Enhanced data performance and accessibility by implementing partitioning strategies and establishing a centralized metadata-driven data catalog.
+
+    - company: Yale University-Library StatLab
+      position: StatLab Consultant
+      location: New Haven, CT, USA
+      start_date: 2023-05
+      end_date: 2024-05
+      highlights:
+        - Provided statistical consulting to students and researchers on data analysis, coding, and visualization using Python, R, and SAS.
+
+    - company: Foundation of Healthcare Technologies Society
+      position: Research Associate
+      location: Delhi, India
+      start_date: 2019-07
+      end_date: 2022-04
+      highlights:
+        - Conducted statistical analyses and hypothesis testing to generate and validate research findings.
+        - Developed data visualizations and reports using R to communicate insights to non-technical stakeholders.
+        - Designed and maintained data processing workflows for data ingestion, cleaning, and validation, ensuring reliable and consistent datasets across studies.
 
     Skills:
-      - Python
-      - SQL
-      - Data Modeling
-      - ELT Pipelines
-      - AWS
-      - Workflow Orchestration
+    - category: Languages
+      items:
+        - Python
+        - SQL
+        - R
+        - Bash
+    - category: Pipelines & Orchestration
+      items:
+        - Airflow
+        - Dagster
+        - Snakemake
+        - Hydra
+        - dbt
+        - ETL/ELT
+    - category: Data Modeling
+      items:
+        - star schema
+        - dimensional modeling
+        - data lakehouse
+        - materialized views
+    - category: Warehousing & Storage
+      items:
+        - Redshift
+        - Snowflake
+        - BigQuery
+        - PostgreSQL
+        - DuckDB
+        - Parquet
+    - category: Infrastructure
+      items:
+        - Docker
+        - Git
+        - CI/CD
+        - Linux
+        - HPC
+        - SLURM
+    - category: Visualization
+      items:
+        - Looker
+        - Tableau
+        - Power BI
 
     Projects:
       - name: Diabetes Risk Calculator
