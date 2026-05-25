@@ -276,9 +276,9 @@ ul.task-list input[type="checkbox"] {
     font-size: 0.8rem;
     font-weight: 500;
     line-height: 1.25;
-    color: var(--global-text-color);
-    background-color: var(--global-code-bg-color);
-    border: 1px solid var(--global-divider-color);
+    color: #fff;
+    background-color: #374151;
+    border: 1px solid #374151;
     border-radius: 999px;
   }
 
@@ -315,6 +315,12 @@ ul.task-list input[type="checkbox"] {
       }
     }
   }
+}
+
+html[data-theme="dark"] .repository-projects .repository-tag {
+  color: #111827;
+  background-color: #e2e8f0;
+  border-color: #e2e8f0;
 }
 
 // Social (bottom)

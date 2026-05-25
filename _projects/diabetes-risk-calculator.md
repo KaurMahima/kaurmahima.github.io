@@ -10,7 +10,7 @@ github: https://github.com/KaurMahima/BIS-634-Assignments/tree/main/FinalProject
 
 **Technologies:** Python · Flask · Plotly · pandas · scikit-learn
 
-[View source code on GitHub](https://github.com/KaurMahima/BIS-634-Assignments/tree/main/FinalProject) · [Read the project note on the blog]({% post_url 2026-05-25-diabetes-risk-calculator %})
+[View source code on GitHub](https://github.com/KaurMahima/BIS-634-Assignments/tree/main/FinalProject)
 
 ## Overview
 
@@ -34,8 +34,3 @@ This project demonstrates an end-to-end workflow: preparing public health survey
 ## Responsible Use
 
 This calculator is an educational analytics project, not a clinical diagnostic tool. Its output should not replace medical evaluation, clinical screening, or advice from a qualified health professional.
-
-## Related Writing
-
-- [Building a Diabetes Risk Calculator with Flask and Random Forests]({% post_url 2026-05-25-diabetes-risk-calculator %})
-- [Blog]({{ '/blog/' | relative_url }})
