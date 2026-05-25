@@ -44,18 +44,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-building-a-citi-bike-analytics-platform-with-duckdb-dbt-and-dagster",
-        
-          title: "Building a Citi Bike Analytics Platform with DuckDB, dbt, and Dagster",
-        
-        description: "Building a reproducible mobility analytics pipeline from Citi Bike trips and NOAA weather data using Parquet, DuckDB, dbt, Dagster, and Streamlit.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/building-citibike-analytics-platform/";
-          
-        },
-      },{id: "post-presenting-a-reproducible-health-claims-data-pipeline-at-usrse-39-25",
+        },{id: "post-presenting-a-reproducible-health-claims-data-pipeline-at-usrse-39-25",
         
           title: "Presenting a reproducible health claims data pipeline at USRSE&#39;25",
         
