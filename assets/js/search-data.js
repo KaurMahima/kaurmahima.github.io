@@ -44,15 +44,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-building-a-diabetes-risk-calculator-with-flask-and-random-forests",
+        },{id: "post-building-a-citi-bike-analytics-platform-with-duckdb-dbt-and-dagster",
         
-          title: "Building a Diabetes Risk Calculator with Flask and Random Forests",
+          title: "Building a Citi Bike Analytics Platform with DuckDB, dbt, and Dagster",
         
-        description: "A project note on turning BRFSS health survey data into an interactive diabetes risk exploration and modeling application.",
+        description: "Building a reproducible mobility analytics pipeline from Citi Bike trips and NOAA weather data using Parquet, DuckDB, dbt, Dagster, and Streamlit.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/diabetes-risk-calculator/";
+            window.location.href = "/blog/2026/building-citibike-analytics-platform/";
           
         },
       },{id: "post-presenting-a-reproducible-health-claims-data-pipeline-at-usrse-39-25",
@@ -66,7 +66,12 @@ ninja.data = [{
             window.location.href = "/blog/2025/usrse25-reproducible-health-claims-pipeline/";
           
         },
-      },{id: "projects-diabetes-risk-calculator",
+      },{id: "projects-citi-bike-analytics-platform",
+          title: 'Citi Bike Analytics Platform',
+          description: "An analytics pipeline combining Citi Bike trip data and NYC weather for mobility analysis.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/citibike-analytics-platform/";
+            },},{id: "projects-diabetes-risk-calculator",
           title: 'Diabetes Risk Calculator',
           description: "An interactive BRFSS-based application for exploring modeled diabetes risk.",
           section: "Projects",handler: () => {
