@@ -57,9 +57,13 @@
           </li>
 
           <!-- Other pages -->
+          {% assign blog_link_rendered = false %}
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
           {% for p in sorted_pages %}
             {% if p.nav and p.autogen == null %}
+              {% if p.permalink == '/blog/' %}
+                {% assign blog_link_rendered = true %}
+              {% endif %}
               {% if p.dropdown %}
                 {% assign has_active_child = false %}
                 {% for child in p.children %}
@@ -117,6 +121,16 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          {% unless blog_link_rendered %}
+            <li class="nav-item {% if page.url contains '/blog/' %}active{% endif %}">
+              <a class="nav-link" href="{{ '/blog/' | relative_url }}">
+                blog
+                {% if page.url contains '/blog/' %}
+                  <span class="sr-only">(current)</span>
+                {% endif %}
+              </a>
+            </li>
+          {% endunless %}
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
