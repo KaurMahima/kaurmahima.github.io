@@ -333,20 +333,20 @@ Your CV can be created using one of two formats. Choose the format that works be
    - [`assets/rendercv/design.yaml`](assets/rendercv/design.yaml) — Design and styling
    - [`assets/rendercv/locale.yaml`](assets/rendercv/locale.yaml) — Localization and formatting
    - [`assets/rendercv/settings.yaml`](assets/rendercv/settings.yaml) — RenderCV settings
-3. To display only this format, delete [`assets/json/resume.json`](assets/json/resume.json) (optional)
+3. To display only this format, omit `assets/json/resume.json` (optional).
 
 ### JSONResume Format
 
-[`assets/json/resume.json`](assets/json/resume.json) uses the [JSONResume](https://jsonresume.org/) standard format, which is compatible with other tools and services.
+An optional `assets/json/resume.json` file can use the [JSONResume](https://jsonresume.org/) standard format, which is compatible with other tools and services.
 
 **If you choose this format:**
 
-1. Edit your CV data in [`assets/json/resume.json`](assets/json/resume.json)
+1. Add and edit your CV data in `assets/json/resume.json`.
 2. To display only this format, delete [`_data/cv.yml`](_data/cv.yml) (optional)
 
 ### Using Both Formats Simultaneously
 
-You can keep both [`_data/cv.yml`](_data/cv.yml) and [`assets/json/resume.json`](assets/json/resume.json) in your repository and switch between them on your website by setting the `cv_format` frontmatter variable in [`_pages/cv.md`](_pages/cv.md):
+You can keep both [`_data/cv.yml`](_data/cv.yml) and an optional `assets/json/resume.json` in your repository and switch between them on your website by setting the `cv_format` frontmatter variable in [`_pages/cv.md`](_pages/cv.md):
 
 ```yaml
 ---

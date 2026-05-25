@@ -32,7 +32,7 @@ Mahima Kaur is a Data Engineer with 3+ years of experience building data pipelin
 - Data Engineer, Harvard T.H. Chan School of Public Health (July 2024 -- present)
 
 
-For more details, see the [CV](/Mahima_Kaur-CV.pdf).
+For more details, see the [CV](/cv/).
 
 **Publications**
 
