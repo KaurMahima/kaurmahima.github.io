@@ -6,7 +6,7 @@ subtitle: Analytics Data Engineer
 
 profile:
   align: right
-  image: img/prof_pic.jpg
+  image: prof_pic.jpg
   image_circular: true
   
 
