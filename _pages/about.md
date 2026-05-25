@@ -1,11 +1,8 @@
 ---
-
-layout: about
 layout: about
 title: About
 permalink: /
-subtitle: Data Engineer | Open to relocation to Denver, Colorado
-
+subtitle: Analytics Data Engineer 
 
 profile:
   align: right
@@ -22,7 +19,6 @@ announcements:
 latest_posts:
   enabled: false
 ---
-
 
 Mahima Kaur is a Data Engineer with 3+ years of experience building data pipelines and analytics solutions using Python and SQL. Skilled in end-to-end ELT pipelines, data modeling, and workflow orchestration for large-scale datasets. Familiar with AWS and expanding cloud expertise.
 
