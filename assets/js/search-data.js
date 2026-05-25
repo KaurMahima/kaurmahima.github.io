@@ -66,7 +66,12 @@ ninja.data = [{
             window.location.href = "/blog/2025/usrse25-reproducible-health-claims-pipeline/";
           
         },
-      },{
+      },{id: "projects-diabetes-risk-calculator",
+          title: 'Diabetes Risk Calculator',
+          description: "An interactive BRFSS-based application for exploring modeled diabetes risk.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/diabetes-risk-calculator/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
