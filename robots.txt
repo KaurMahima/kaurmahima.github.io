@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://mahimakaur.github.io/sitemap.xml
+Sitemap: https://kaurmahima.github.io/sitemap.xml
