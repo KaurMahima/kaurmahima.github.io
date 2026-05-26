@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-designing-analytical-data-pipelines-with-parquet-and-duckdb",
+        },{id: "post-building-analytics-marts-with-dbt-and-duckdb",
+        
+          title: "Building Analytics Marts with dbt and DuckDB",
+        
+        description: "How dbt and DuckDB work together to create transparent, testable analytical models from Parquet data.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/building-analytics-marts-with-dbt-and-duckdb/";
+          
+        },
+      },{id: "post-designing-analytical-data-pipelines-with-parquet-and-duckdb",
         
           title: "Designing Analytical Data Pipelines with Parquet and DuckDB",
         
@@ -53,6 +64,17 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2026/designing-health-data-pipelines-with-parquet-and-duckdb/";
+          
+        },
+      },{id: "post-serving-analytical-data-products-with-streamlit",
+        
+          title: "Serving Analytical Data Products with Streamlit",
+        
+        description: "Designing dashboards that consume modeled metrics rather than repeating transformation logic in the app layer.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/serving-analytical-data-with-streamlit/";
           
         },
       },{id: "post-validating-analytics-ready-data-before-analysis",
