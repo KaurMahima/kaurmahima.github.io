@@ -2,7 +2,7 @@
 layout: page
 permalink: /blog/
 title: Blog
-description: Essays on analytics engineering, reproducible workflows, data quality, and scalable data products.
+description: Blogs on analytics engineering, reproducible workflows, data quality, and scalable data products.
 nav_title: Blog
 nav: true
 nav_order: 5

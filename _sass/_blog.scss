@@ -182,6 +182,34 @@
   }
 }
 
+.editorial-page {
+  .post-title {
+    font-family: "Roboto Slab", Georgia, serif;
+    font-weight: 500;
+    letter-spacing: -0.025em;
+    line-height: 1.14;
+  }
+
+  article {
+    font-family: "Roboto Slab", Georgia, serif;
+    font-size: 1.08rem;
+    line-height: 1.85;
+
+    p,
+    li {
+      line-height: inherit;
+    }
+
+    h2,
+    h3 {
+      font-family: "Roboto", Arial, sans-serif;
+      font-weight: 500;
+      letter-spacing: -0.018em;
+      line-height: 1.25;
+    }
+  }
+}
+
 .post-content {
   .post-inline-media {
     float: left;
