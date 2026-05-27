@@ -9,10 +9,10 @@ nav_order: 5
 ---
 
 <div class="tag-category-list" aria-label="Browse topics">
-  <span class="topic-label">Topics</span>
+  <span class="topic-label">Hashtags</span>
   <ul>
     {% for tag in site.display_tags %}
-      <li><a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a></li>
+      <li><a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">#{{ tag }}</a></li>
     {% endfor %}
   </ul>
 </div>

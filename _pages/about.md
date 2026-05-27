@@ -17,7 +17,7 @@ latest_posts:
   enabled: false
 ---
 
-Mahima Kaur is a Anlytics Data Engineer with 3+ years of experience building data pipelines and analytics solutions using Python and SQL. Skilled in end-to-end ELT pipelines, data modeling, and workflow orchestration for large-scale datasets. Familiar with AWS and expanding cloud expertise.
+I am an Analytics Data Engineer with over 3 years of experience designing and building robust data pipelines and analytics solutions using Python and SQL. I specialize in end-to-end ELT processes, data modeling, and workflow orchestration for large-scale datasets. I am skilled in AWS and am actively expanding my cloud expertise. I am passionate about transforming raw data into actionable insights to drive business value.
 
 **Education**
 

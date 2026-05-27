@@ -253,7 +253,7 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["data-engineering", "analytics-engineering", "data-quality", "research-software", "reproducibility", "presentation"]
+display_tags: ["data-engineering", "analytics-engineering", "data-quality", "research-software", "reproducibility"]
 display_categories: ["presentations"]
 
 # -----------------------------------------------------------------------------
