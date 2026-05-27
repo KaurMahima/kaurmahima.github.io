@@ -149,6 +149,8 @@ ul.task-list input[type="checkbox"] {
 }
 
 .projects {
+  margin-top: 2.6rem;
+
   a {
     text-decoration: none;
 
@@ -159,76 +161,241 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
-  .project-card {
-    flex-direction: row;
+  .project-label,
+  .project-section-label {
+    color: var(--global-text-color-light);
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 0.74rem;
+    font-weight: 500;
+    letter-spacing: 0.11em;
+    margin: 0 0 0.75rem;
+    text-transform: uppercase;
+  }
+
+  .featured-project {
+    background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
+    border-radius: 0.6rem;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: minmax(0, 1.35fr) minmax(230px, 0.9fr);
+    margin-bottom: 3.2rem;
+    padding: 2.2rem;
 
-    .project-thumbnail-link {
-      flex: 0 0 104px;
-      padding: 1rem 0 1rem 1rem;
+    h2 {
+      font-family: "Roboto Slab", Georgia, serif;
+      font-size: clamp(1.8rem, 4vw, 2.25rem);
+      font-weight: 500;
+      letter-spacing: -0.025em;
+      line-height: 1.22;
+      margin-bottom: 0.8rem;
+
+      a {
+        color: var(--global-text-color);
+
+        &:hover {
+          color: var(--global-theme-color);
+        }
+      }
+    }
+  }
+
+  .featured-description {
+    color: var(--global-text-color-light);
+    font-size: 1.04rem;
+    line-height: 1.65;
+    margin-bottom: 1rem;
+  }
+
+  .project-outcome {
+    border-left: 2px solid var(--global-theme-color);
+    color: var(--global-text-color);
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 0.92rem;
+    line-height: 1.55;
+    margin: 0 0 1.25rem;
+    padding-left: 0.85rem;
+  }
+
+  .project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .project-tag {
+    background-color: var(--global-code-bg-color);
+    border-radius: 999px;
+    color: var(--global-text-color-light);
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 0.74rem;
+    font-weight: 500;
+    padding: 0.25rem 0.62rem;
+  }
+
+  .project-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    margin-top: 1.65rem;
+
+    a {
+      border-radius: 999px;
+      font-family: "Roboto", Arial, sans-serif;
+      font-size: 0.88rem;
+      font-weight: 500;
+      padding: 0.62rem 1rem;
     }
 
-    figure {
-      margin-bottom: 0;
+    .project-action-primary {
+      background-color: var(--global-theme-color);
+      color: var(--global-hover-text-color);
     }
 
-    .card-img-top {
-      display: block;
-      width: 88px;
-      height: 88px;
-      padding: 0.45rem;
-      object-fit: contain;
-      background-color: #fff;
-      border-radius: 0.25rem;
+    .project-action-secondary {
+      border: 1px solid var(--global-divider-color);
+      color: var(--global-text-color);
+
+      i {
+        margin-right: 0.35rem;
+      }
+
+      &:hover {
+        border-color: var(--global-theme-color);
+        color: var(--global-theme-color);
+      }
     }
+  }
+
+  .project-architecture {
+    background-color: var(--global-code-bg-color);
+    border-radius: 0.45rem;
+    padding: 1.35rem 1.25rem;
+
+    ol {
+      counter-reset: pipeline;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li {
+      color: var(--global-text-color);
+      counter-increment: pipeline;
+      display: flex;
+      font-family: "Roboto", Arial, sans-serif;
+      font-size: 0.9rem;
+      gap: 0.65rem;
+      line-height: 1.4;
+      margin-bottom: 0.85rem;
+
+      &::before {
+        align-items: center;
+        background-color: var(--global-card-bg-color);
+        border-radius: 50%;
+        color: var(--global-theme-color);
+        content: counter(pipeline);
+        display: inline-flex;
+        flex: 0 0 1.45rem;
+        font-size: 0.75rem;
+        font-weight: 500;
+        height: 1.45rem;
+        justify-content: center;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .project-section-heading {
+    margin-bottom: 1.35rem;
+
+    h2 {
+      font-family: "Roboto Slab", Georgia, serif;
+      font-size: 1.55rem;
+      font-weight: 500;
+      letter-spacing: -0.018em;
+      line-height: 1.25;
+      margin: 0;
+    }
+  }
+
+  .project-card {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.45rem;
+    box-shadow: none;
+    flex-direction: column;
 
     .card-body {
+      display: flex;
+      flex-direction: column;
       min-width: 0;
-      padding: 1rem;
+      padding: 1.35rem;
     }
 
     .card-title {
-      font-size: 1.15rem;
-      margin-bottom: 0.45rem;
+      font-family: "Roboto Slab", Georgia, serif;
+      font-size: 1.25rem;
+      font-weight: 500;
+      letter-spacing: -0.016em;
+      line-height: 1.35;
+      margin-bottom: 0.6rem;
     }
 
     .card-text {
-      font-size: 0.925rem;
-      margin-bottom: 0.65rem;
+      color: var(--global-text-color-light);
+      font-size: 0.92rem;
+      line-height: 1.55;
+      margin-bottom: 1rem;
     }
 
     .project-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.3rem;
-      margin-bottom: 0.75rem;
+      margin: auto 0 1.1rem;
     }
 
-    .project-tag {
-      padding: 0.15rem 0.45rem;
-      color: #fff;
-      font-size: 0.72rem;
+    .project-card-actions {
+      align-items: center;
+      border-top: 1px solid var(--global-divider-color);
+      display: flex;
+      justify-content: space-between;
+      padding-top: 0.9rem;
+    }
+
+    .project-read-more {
+      color: var(--global-text-color);
+      font-family: "Roboto", Arial, sans-serif;
+      font-size: 0.86rem;
       font-weight: 500;
-      background-color: #374151;
-      border-radius: 999px;
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+
+    .project-source {
+      color: var(--global-text-color-light);
+      font-size: 1rem;
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
     }
   }
 
   .col {
-    padding-bottom: 1rem;
+    padding-bottom: 1.25rem;
   }
 
-  @media (max-width: 575px) {
-    .project-card {
-      .project-thumbnail-link {
-        flex-basis: 82px;
-        padding: 0.85rem 0 0.85rem 0.85rem;
-      }
+  @media (max-width: 767px) {
+    .featured-project {
+      grid-template-columns: 1fr;
+      padding: 1.4rem;
+    }
 
-      .card-img-top {
-        width: 68px;
-        height: 68px;
-      }
+    .project-actions {
+      margin-bottom: 0.5rem;
     }
   }
 

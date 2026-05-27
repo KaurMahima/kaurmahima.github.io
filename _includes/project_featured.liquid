@@ -1,0 +1,37 @@
+<article class="featured-project">
+  <div class="featured-project-copy">
+    {% if include.project.label %}
+      <p class="project-label">{{ include.project.label }}</p>
+    {% endif %}
+    <h2>
+      <a href="{{ include.project.url | relative_url }}">{{ include.project.title }}</a>
+    </h2>
+    <p class="featured-description">{{ include.project.description }}</p>
+    {% if include.project.outcome %}
+      <p class="project-outcome">{{ include.project.outcome }}</p>
+    {% endif %}
+    {% if include.project.tech %}
+      <div class="project-tags" aria-label="Technology stack">
+        {% for technology in include.project.tech %}
+          <span class="project-tag">{{ technology }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+    <div class="project-actions">
+      <a class="project-action-primary" href="{{ include.project.url | relative_url }}">Read case study</a>
+      {% if include.project.github %}
+        <a class="project-action-secondary" href="{{ include.project.github }}"><i class="fa-brands fa-github"></i> Source code</a>
+      {% endif %}
+    </div>
+  </div>
+  {% if include.project.pipeline %}
+    <div class="project-architecture" aria-label="Project architecture">
+      <p class="project-section-label">Architecture</p>
+      <ol>
+        {% for stage in include.project.pipeline %}
+          <li>{{ stage }}</li>
+        {% endfor %}
+      </ol>
+    </div>
+  {% endif %}
+</article>

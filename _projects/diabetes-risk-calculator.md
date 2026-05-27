@@ -7,6 +7,8 @@ importance: 3
 img: /assets/img/github_repo.png
 github: https://github.com/KaurMahima/BIS-634-Assignments/tree/main/FinalProject
 tech: [Python, Flask, Plotly, Machine Learning]
+label: Predictive Analytics Application
+outcome: BRFSS-based visual exploration and modeled risk estimates delivered through Flask.
 ---
 
 **Technologies:** Python · Flask · Plotly · pandas · scikit-learn

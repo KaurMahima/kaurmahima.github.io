@@ -1,22 +1,16 @@
 <div class="col">
   <div class="card project-card h-100 hoverable">
-    {% if project.img %}
-      <a class="project-thumbnail-link" href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-        {%
-          include figure.liquid
-          loading="eager"
-          path=project.img
-          sizes = "250px"
-          alt="project thumbnail"
-          class="card-img-top"
-        %}
-      </a>
-    {% endif %}
     <div class="card-body">
+      {% if project.label %}
+        <p class="project-label">{{ project.label }}</p>
+      {% endif %}
       <h2 class="card-title">
         <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">{{ project.title }}</a>
       </h2>
       <p class="card-text">{{ project.description }}</p>
+      {% if project.outcome %}
+        <p class="project-outcome">{{ project.outcome }}</p>
+      {% endif %}
       {% if project.tech %}
         <div class="project-tags" aria-label="Technology stack">
           {% for technology in project.tech %}
@@ -24,19 +18,10 @@
           {% endfor %}
         </div>
       {% endif %}
-      <div class="row ml-1 mr-1 p-0">
+      <div class="project-card-actions">
+        <a class="project-read-more" href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">View project</a>
         {% if project.github %}
-          <div class="github-icon">
-            <div class="icon" data-toggle="tooltip" title="Code Repository">
-              <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
-            </div>
-            {% if project.github_stars %}
-              <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                <i class="fa-solid fa-star"></i>
-                <span id="{{ project.github_stars }}-stars"></span>
-              </span>
-            {% endif %}
-          </div>
+          <a class="project-source" href="{{ project.github }}" aria-label="Source code for {{ project.title }}"><i class="fa-brands fa-github"></i></a>
         {% endif %}
       </div>
     </div>

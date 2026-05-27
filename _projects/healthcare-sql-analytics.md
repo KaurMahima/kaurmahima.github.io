@@ -7,6 +7,8 @@ importance: 2
 img: /assets/img/github_repo.png
 github: https://github.com/KaurMahima/healthcare-sql-analytics
 tech: [SQL, DuckDB, Python]
+label: Analytical SQL
+outcome: 49,904 admissions analyzed for billing, length of stay, and 30-day readmissions.
 ---
 
 **Technologies:** SQL · DuckDB · Python · Window Functions · Kaggle API

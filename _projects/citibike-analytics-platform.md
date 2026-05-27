@@ -7,6 +7,9 @@ importance: 0
 img: /assets/img/github_repo.png
 github: https://github.com/KaurMahima/citibike-analytics-platform
 tech: [Python, DuckDB, dbt, Dagster]
+label: Featured Analytics Engineering Project
+outcome: A local analytics platform with monthly ingestion, tested marts, scheduled refreshes, and dashboard-ready mobility metrics.
+pipeline: [Citi Bike and NOAA ingestion, Partitioned Parquet storage, dbt models in DuckDB, Streamlit analytical dashboard]
 ---
 
 **Technologies:** Python · DuckDB · dbt · Dagster · Streamlit · Parquet · NOAA API

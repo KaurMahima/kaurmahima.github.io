@@ -7,6 +7,8 @@ importance: 1
 img: /assets/img/github_repo.png
 github: https://github.com/KaurMahima/cms-hospitalization-risk-pipeline
 tech: [Python, Snakemake, Dash, CMS Data]
+label: Health Data Pipeline
+outcome: Reproducible claims processing from CMS inputs to interactive hospitalization-risk exploration.
 ---
 
 **Technologies:** Python · Snakemake · pandas · Dask · Plotly · Dash · CMS Claims Data
