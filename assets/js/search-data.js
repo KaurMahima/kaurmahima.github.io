@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Selected analytics engineering projects with implementation details.",
+          description: "Selected data engineering case studies, from ingestion and modeling to reliable analytical delivery.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
