@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-blog",
           title: "Blog",
-          description: "Essays on analytics engineering, reproducible workflows, data quality, and scalable data products.",
+          description: "Blogs on analytics engineering, reproducible workflows, data quality, and scalable data products.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
